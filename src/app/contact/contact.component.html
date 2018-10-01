@@ -1,0 +1,10 @@
+<div class="container">
+  <div [formGroup]="contactForm" class="form-group">
+    Full Name:<input type="text" formControlName="fullname" class="form-control">
+    Mobile Number:<input type="text" formControlName="mobilenumber" class="form-control">
+    Email Id:<input type="text" formControlName="emailid" class="form-control">
+    Location:<input type="text" formControlName="location" class="form-control">
+    Remarks:<input type="text" formControlName="remarks" class="form-control">
+    <button class="btn btn-primary" (click)="send()">Send</button>
+  </div>
+</div>
